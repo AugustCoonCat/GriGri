@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Печки.Тут</title>
+  <link rel="stylesheet" href="./css/nonstyle.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__top">
+        <div class="header__left">
+          <div class="header__logo">
+            <p class="header__company-name"> Печки.<span class="header__company-here">Тут</span> <br> <span
+                class="header__company-subtitle">Печи на заказ в Канаше</span></p>
+            <img src="./img/icons/logo.png" alt="Логотип компании" class="header__logo-image">
+          </div>
+          <div class="header__benefits">
+            <h2 class="header__slogan">Семейные традиции, <br> которые согревают
+            </h2>
+            <div class="header__separator"></div>
+            <h2 class="header__benefit">Отвечаем на звонки <br>
+              с 9:00 до 21:00 <br> без выходных </h2>
+
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="header__separator"></div>
+          <div class="header__address">
+            <img class="locationRed" src="./img/icons/locationRed.png" alt="locationRed">
+            <p class="header__address-text">Чувашская Республика, <br> г. Канаш, <br> ул. Красноармейская, 46</p>
+          </div>
+          <div class="header__separator"></div>
+          <div class="header__phone-numbers">
+            <p class="header__phone-number">+7 (927) 842-54-32</p>
+            <p class="header__phone-number">+7 (937) 382-07-09</p>
+            <!-- <a class="header__phone-callback" href="">Вам перезвонить?</a> -->
+          </div>
+          <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="nav__container container">
+        <nav class="mobile__nav">
+          <ul class="mobile__nav-list">
+            <li><a href="#main">Старт</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#production">Продукция</a></li>
+            <li><a href="#order">Заказ</a></li>
+            <li><a href="#additional">Дополнительно</a></li>
+            <li><a href="#choose">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <ul>
+            <li><a href="#main">Старт</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#production">Продукция</a></li>
+            <li><a href="#order">Заказ</a></li>
+            <li><a href="#additional">Дополнительно</a></li>
+            <li><a href="#choose">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <section class="main" id="main">
+    <div class="main__container container">
+      <p class="main__title">Печи на заказ <br> <span class="text-red">в Канаше</span> </p>
+      <div class="main__advantages">
+        <div class="main__advantage"> <img class="main__advantage_img" src="./img/icons/advantageMoney.svg" alt="">
+          Цена от <span class="text-red"> 29990 ₽ </span></div>
+        <div class="main__advantage"> <img class="main__advantage_img" src="./img/icons/advantageCalendar.svg" alt="">
+          Изготовим от <span class="text-red">2 дней</span></div>
+        <div class="main__advantage"> <img class="main__advantage_img" src="./img/icons/advantageGuarantee.svg" alt="">
+          Гарантия <span class="text-red">3 года</span></div>
+      </div>
+      <div class="main__promotion">
+        <span class="text-red"></span>
+        <p class="main__promotion_title">Акция</p>
+        <p class="main__promotion_text">Скидка <span class="text-red"> 5% </span> на Вашу печку</p>
+        <p class="data">до 01.10.2025</p>
+        <input class="userNumber" type="text" placeholder="Введите номер телефона"><button class="getDiscount">Получить
+          скидку</button>
+      </div>
+    </div>
+  </section>
+  <section class="advantages" id="advantages">
+    <div class="advantages__container container">
+      <div class="advantage__content">
+        <div class="advantage">
+          <div class="icon">
+            <img src="./img/advantages/advantage1.svg" alt="" class="advantage__icon">
+          </div>
+          <p><strong>Двусторонняя сварка</strong> 0,8 мм</p>
+        </div>
+
+        <div class="advantage">
+          <div class="icon">
+
+            <img src="./img/advantages/advantage2.svg" alt="" class="advantage__icon">
+          </div>
+          <p><strong>Варим печи</strong><br>с 2014 г.</p>
+        </div>
+
+        <div class="advantage">
+          <div class="icon">
+
+            <img src="./img/advantages/advantage3.svg" alt="" class="advantage__icon">
+          </div>
+          <p><strong>Бесплатный</strong><br>замер</p>
+        </div>
+
+        <div class="advantage">
+          <div class="icon">
+            <img src="./img/advantages/advantage4.svg" alt="" class="advantage__icon">
+          </div>
+          <p><strong>Срок службы</strong><br>до 10 лет</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="production" id="production">
+    <div class="production__container container">
+      <div class="production__title">
+        <p>Какие печи <br> <span class="text-red">мы производим?</span></p>
+      </div>
+      <div class="production__grid" id="cardsContainer">
+        <div class="production__card">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/2LB/2LB1.jpg" alt="Печь 1" class="production__slide active">
+              <img src="./img/production/2LB/2LB2.jpg" alt="Печь 1" class="production__slide">
+              <img src="./img/production/2LB/2LB3.jpg" alt="Печь 1" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Банная печь Гефест </h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>2</span></p>
+            <p class="production__info-text">Расположение бака: <span>левое</span> </p>
+            <p class="production__info-price">Цена: <span>от 34 800</span> <span class="text-red">31 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <div class="production__card">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/1L/1L.jpg" alt="Печь 2" class="production__slide active">
+              <img src="./img/production/1L/1L2.jpg" alt="Печь 2" class="production__slide">
+              <img src="./img/production/1L/1L3.jpg" alt="Печь 2" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Банная печь Гефест </h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>1</span></p>
+            <p class="production__info-text">Расположение бака: <span>правое</span> </p>
+            <p class="production__info-price">Цена: <span>от 31 900</span> <span class="text-red">29 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <div class="production__card">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/2R/2R1.jpg" alt="Печь 2" class="production__slide active">
+              <img src="./img/production/2R/2R2.jpg" alt="Печь 2" class="production__slide">
+              <img src="./img/production/2R/2R3.jpg" alt="Печь 2" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Банная печь Вулкан</h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>2</span></p>
+            <p class="production__info-text">Расположение бака: <span>левое</span> </p>
+            <p class="production__info-price">Цена: <span>от 34 800</span> <span class="text-red">29 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <div class="production__card production__card-variable">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/2R(Vita)/2R(Vita)1.jpg" alt="Печь 1" class="production__slide active">
+              <img src="./img/production/2R(Vita)/2R(Vita)2.jpg" alt="Печь 1" class="production__slide">
+              <img src="./img/production/2R(Vita)/2R(Vita)3.jpg" alt="Печь 1" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Банная печь Вита </h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>2</span></p>
+            <p class="production__info-text">Расположение бака: <span>правое</span> </p>
+            <p class="production__info-price">Цена: <span>от 37 800</span> <span class="text-red">35 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <div class="production__card production__card-variable">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/2L(Vita)/2L(Vita).jpg" alt="Печь 2" class="production__slide active">
+              <img src="./img/production/2L(Vita)/2L(Vita)2.jpg" alt="Печь 2" class="production__slide">
+              <img src="./img/production/2L(Vita)/2L(Vita)3.jpg" alt="Печь 2" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Банная печь Вита </h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>1</span></p>
+            <p class="production__info-text">Расположение бака: <span>левое</span> </p>
+            <p class="production__info-price">Цена: <span>от 37 800</span> <span class="text-red">35 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <div class="production__card production__card-variable">
+          <div class="production__slider">
+            <div class="production__slides">
+              <img src="./img/production/PredB/PredB1.jpg" alt="Печь 2" class="production__slide active">
+              <img src="./img/production/PredB/PredB2.jpg" alt="Печь 2" class="production__slide">
+              <img src="./img/production/PredB/PredB3.jpg" alt="Печь 2" class="production__slide">
+            </div>
+            <div class="production__nav">
+              <button class="production__prev" onclick="prevSlide(this)">&#10094;</button>
+              <button class="production__next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="production__dots">
+              <span class="production__dot" onclick="currentSlide(0)"></span>
+              <span class="production__dot" onclick="currentSlide(1)"></span>
+              <span class="production__dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+          <div class="production__info">
+            <h2 class="production__info-title">Предбанная печь Давид </h2>
+            <p class="production__info-text">Материал: <span>Сталь ГОСТ 10мм</span></p>
+            <p class="production__info-text">Количество ходов: <span>2</span></p>
+            <p class="production__info-text">Расположение бака: <span>правое</span> </p>
+            <p class="production__info-price">Цена: <span>от 37 800</span> <span class="text-red">35 990 руб.</span>
+            </p>
+            <button class="button__buy">Заказать</button>
+          </div>
+        </div>
+        <button id="showMoreBtn" class="show-more-btn">Показать еще</button>
+      </div>
+    </div>
+  </section>
+  <section class="order" id="order">
+    <div class="order__container container">
+      <div class="order__title">Не нашли нужную модель? <br> <span class="text-red">Она у нас точно есть!</span>
+      </div>
+      <div class="order__text">
+        <p> Мы изготовили более <span>1000 </span> изделий на заказ! <br> Получите бесплатную консультацию </p>
+      </div>
+      <div class="order__content">
+        <div class="order__item">
+          <div class="order__item-img"><img src="./img/order/Order1.jpg" alt=""></div>
+          <div class="order__item-title">Банные печи</div>
+          <div class="order__item-text">У нас более <span>32</span> моделей <br>надежных банных печей</div>
+          <button class="order__item-button">Получить консультацию</button>
+        </div>
+        <div class="order__item">
+          <div class="order__item-img"><img src="./img/order/Mangal1.png" alt=""></div>
+          <div class="order__item-title">Мангалы</div>
+          <div class="order__item-text">У нас более <span>20</span> моделей <br> мангалов</div>
+          <button class="order__item-button">Получить консультацию</button>
+        </div>
+        <div class="order__item">
+          <div class="order__item-img"><img src="./img/order/Tepl1.jpg" alt=""></div>
+          <div class="order__item-title">Теплицы</div>
+          <div class="order__item-text">У нас более <span>10</span> моделей <br> долговечных теплиц</div>
+          <button class="order__item-button">Получить консультацию</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="additional" id="additional">
+    <div class="additional__container container">
+      <p class="additional__title"><b>Наши <span class="text-red">дополнительные <br> решения</span> для Вашей
+          бани</b></p>
+      <div class="additional__content">
+        <div class="additional__element">
+          <img src="./img/additional/Saunawood.jpg" alt="" class="additional__element-image">
+          <p class="additional__element-text">Камни для бани </p>
+          <button class="additional__element-button">Получить консультацию</button>
+        </div>
+        <div class="additional__element">
+          <img src="./img/additional/Nerzhabak.png" alt="" class="additional__element-image">
+          <p class="additional__element-text"> Баки из нержавейки </p>
+          <button class="additional__element-button">Получить консультацию</button>
+        </div>
+        <div class="additional__element">
+          <img src="./img/additional/Djut.jpeg" alt="" class="additional__element-image">
+          <p class="additional__element-text"> Ленты джутовые </p>
+          <button class="additional__element-button">Получить консультацию</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="choose" id="choose">
+    <div class="choose__container container">
+      <div class="choose__title">
+        <p><b>Почему выбирают <span class="text-red">наши печи?</span></b></p>
+      </div>
+      <div class="choose__content">
+         <div class="choose__element">
+          <div class="choose__element-image"><img src="./img/choose/worker.jpg" alt=""></div>
+          <p class="choose__element-title">Опытные сварщики</p>
+          <p class="choose__element-text"> Качество гарантировано! Наши мастера соблюдают все нормы и стандарты при
+            сварке банных печей. <br> Предоставляем гарантию на сварочные работы.
+
+          </p>
+        </div>
+        <div class="choose__element">
+          <div class="choose__element-image"><img src="./img/choose/iron.jpg" alt=""></div>
+          <p class="choose__element-title">Толстый металл</p>
+          <p class="choose__element-text"> Наши печи сварены из 10 мм металла ГОСТ 19903-2015 , что обеспечивает их
+            службу более 8 лет! </p>
+        </div>
+        <div class="choose__element">
+          <div class="choose__element-image"><img src="./img/choose/bak.jpg" alt=""></div>
+          <p class="choose__element-title">Печки с баком</p>
+          <p class="choose__element-text"> Все печи комплектуются баком для воды из нержавеющей стали толщиной 1.2 мм
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacts" id="contacts">
+    <h2 class="contacts__title">Контакты</h2>
+    <div class="contacts__map">
+      <img src="./img/Map.png" alt="Карта Россия, Чувашская Республика, г. Канаш, ул. Красноармейская д.46"
+        class="contacts__map-img" />
+    </div>
+    <div class="contacts__info">
+      <p><strong>Адрес: <br></strong> Чувашская Республика, <br> г. Канаш, ул. Красноармейская д.46</p>
+      <p><strong>Телефон: <br></strong> +7 (927) 842-54-32 <br>+7 (937) 382-07-09</p>
+      </p>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__text">
+        <div class="footer__text-left">
+          <p>© “ИП Иванов Г.А” Информация на сайте не является публичной офертой <br>Настоящий
+            сайт не является интернет-магазином</p>
+        </div>
+        <div class="footer__text-right">
+          <p>© Все права защищены</p>
+          <p>Политика конфиденциальности</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+<script src="./js/slider.js"></script>
+<script src="./js/burger.js"></script>
+
+</html>
